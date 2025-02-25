@@ -1,0 +1,64 @@
+/* Some healthy defaults -- Things on all or most pages */
+
+body {
+    padding-top: 5rem;
+    font-family: "Kanit", "Noto Sans JP", serif;
+    text-align: left;
+    background-color: #F0E7D8;
+    color: black;
+}
+
+nav.navbar-default {
+    background-color: #AB9B96;
+    color: black;
+    padding: 1rem;
+    border-color: #A63A50;
+}
+
+main {
+    color: black;
+}
+
+a {
+    color: #A63A50;
+}
+
+a:hover {
+    color: #A63A50;
+}
+
+/* Unique styles -- Things we need for bootstrap accordions etc. */
+
+div.accordion {
+    box-shadow: 10px 10px black;
+}
+
+.card-header {
+    background-color: #AB9B96;
+    button {
+        color: #A63A50;
+    }
+    
+    button:hover {
+        color: #A63A50;
+    }
+
+    button:focus {
+        color: #A63A50;
+    }
+}
+
+.card-body {
+    background-color: #F0E7D8;
+    button {
+        color: #A63A50;
+    }
+    
+    button:hover {
+        color: #A63A50;
+    }
+
+    button:focus {
+        color: #A63A50;
+    }
+}
