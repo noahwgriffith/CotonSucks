@@ -17,6 +17,7 @@ nav.navbar-default {
 
 main {
     color: black;
+    max-width: 1200px;
 }
 
 a {
@@ -25,6 +26,49 @@ a {
 
 a:hover {
     color: #A63A50;
+}
+
+/* Responsive elements for smaller screens */
+
+@media only screen and (max-width: 700px) {
+    body {
+        font-size: 1.5rem;
+        font-family: "Kanit", "Noto Sans JP", serif;
+        text-align: left;
+        background-color: #F0E7D8;
+        color: black;
+    }
+}
+
+/* Most pages contain images aligned to the left within a paragraph */
+
+.left {
+    width: 350px;
+    float: left;
+    margin-right: 2%;
+    border: 5px solid #A63A50;
+}
+
+.video {
+    text-align: center;
+}
+
+/* Useful class for easily aligning images center when needed. Also increases the size. Mostly for explanatory graphics. */
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border: 5px solid #A63A50;
+  }
+
+iframe {
+    float: right;
+}
+
+table {
+    width: 100%;
 }
 
 /* Unique styles -- Things we need for bootstrap accordions etc. */
@@ -61,4 +105,8 @@ div.accordion {
     button:focus {
         color: #A63A50;
     }
+}
+
+.form-switch {
+    margin-left: 25px;
 }
